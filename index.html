@@ -5,13 +5,46 @@
 	<title>Wiki</title>
 	<!-- angular  script-->
 	<script type="text/javascript" src="js/angular.min.js"></script>
+	<!-- page styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
 	<!-- aplicacion script -->
 	<script type="text/javascript" src="app/app.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
-<body ng-app>
+<body ng-app="wikiApp">
+<div class="container">
+	<div class="row">
+		<fieldset>
+			<legend class="titulo">Destacados</legend>
+		</fieldset>
 
-     <input type="text" ng-model="mensaje">
-     <label>{{mensaje}}</label>
+
+
+		<div class="row">
+  		<div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+      <img src="" >
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Leer mas</a> <a href="#" class="btn btn-default" role="button">Editar </a></p>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	<div class="row">
+		<fieldset>
+			<legend class="titulo"> Ultimas Noticias</legend>
+		</fieldset>
+	</div>
+
+
+</div>
+
+     
 	
 </body>
 </html>
